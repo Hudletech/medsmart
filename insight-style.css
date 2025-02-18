@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .insight-section {
+    padding: 50px 0;
+  }
+  
+  .insight-section h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .insight-section p {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .col-md-6 {
+    width: 48%;
+  }
+  
+  .blog-post, .research-article {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .blog-post h3, .research-article h3 {
+    margin-top: 0;
+  }
+  
+  .blog-post p, .research-article p {
+    margin-bottom: 0;
+  }
+  
+  .blog-post a, .research-article a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .blog-post a:hover, .research-article a:hover {
+    text-decoration: underline;
+  }
